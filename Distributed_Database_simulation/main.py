@@ -124,8 +124,8 @@ def main():
     
     end_time = time.time()
     logging.info(f"\nPerformance Metrics:")
-    logging.info(f"Thread execution time: {thread_end_time - thread_start_time:.2f} seconds")
-    logging.info(f"Total execution time: {end_time - start_time:.2f} seconds")
+    logging.info(f"Thread execution time: {thread_end_time - thread_start_time} seconds")
+    logging.info(f"Total execution time: {end_time - start_time} seconds")
 
 if __name__ == "__main__":
     main()
